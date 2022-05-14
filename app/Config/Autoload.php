@@ -64,7 +64,9 @@ class Autoload extends AutoloadConfig
      *
      * @var array<string, string>
      */
-    public $classmap = [];
+    public $classmap = [
+        'Tool_Helper' => APPPATH . 'Helpers/tool_helper.php'
+    ];
 
     /**
      * -------------------------------------------------------------------
